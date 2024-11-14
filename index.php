@@ -20,6 +20,7 @@
     // write these components as ternery operators if these file are not there show a 404 text idea or just blank
 
         //Functional components
+        require "./components/DATABASE/connect_mysql.php";
         require "./components/SESSION_TASK/reset_session_var.php";
         require "./components/QUIZ/getDataFromAPI.php";
 

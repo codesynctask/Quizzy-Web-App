@@ -22,13 +22,14 @@
     text-transform: uppercase;
     cursor: pointer;
     width: 100%;
-    /* word-wrap: none; */
+    font-size: 1.2em;
     word-wrap:normal;
     font-weight: 800;
 }
-.login_signup_wrapper .btn_wrapper button:first-child{
+.login_signup_wrapper .btn_wrapper a:first-child button{
     background-color: lightseagreen;
     color: white;
+
 }
 
 .login_signup_wrapper h1,p{
