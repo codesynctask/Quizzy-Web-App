@@ -1,0 +1,48 @@
+nav{
+    width: 90%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.259);
+
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 3vh;
+    text-transform: uppercase;
+ 
+
+}
+nav h1{
+    margin: 0;
+    cursor: not-allowed;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+nav ul a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: red;
+}
+
+nav button{
+    padding: 2vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+nav button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}

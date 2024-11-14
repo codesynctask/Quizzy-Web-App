@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+            "correct_answer": "Year",
+            "incorrect_answers": [
+                "Four Years",
+                "Two Years",
+                "Eight Years"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "The teapot often seen in many 3D modeling applications is called what?",
+            "correct_answer": "Utah Teapot",
+            "incorrect_answers": [
+                "Pixar Teapot",
+                "3D Teapot",
+                "Tennessee Teapot"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+            "correct_answer": "Inkscape",
+            "incorrect_answers": [
+                "Paint.NET",
+                "GIMP",
+                "Adobe Photoshop"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does RAID stand for?",
+            "correct_answer": "Redundant Array of Independent Disks",
+            "incorrect_answers": [
+                "Rapid Access for Indexed Devices",
+                "Range of Applications with Identical Designs",
+                "Randomized Abstract Identification Description"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "How fast is USB 3.1 Gen 2 theoretically?",
+            "correct_answer": "10 Gb\/s",
+            "incorrect_answers": [
+                "5 Gb\/s",
+                "8 Gb\/s",
+                "1 Gb\/s"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is known as &quot;the brain&quot; of the Computer?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                "Motherboard",
+                "Graphics Processing Unit",
+                "Keyboard"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "On which day did the World Wide Web go online?",
+            "correct_answer": "December 20, 1990",
+            "incorrect_answers": [
+                "December 17, 1996",
+                "November 12, 1990",
+                "November 24, 1995"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does the term GPU stand for?",
+            "correct_answer": "Graphics Processing Unit",
+            "incorrect_answers": [
+                "Gaming Processor Unit",
+                "Graphite Producing Unit",
+                "Graphical Proprietary Unit"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": ".at is the top-level domain for what country?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                "Argentina",
+                "Australia",
+                "Angola"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+            "correct_answer": "Non-impact printer",
+            "incorrect_answers": [
+                "Impact printer",
+                "Daisywheel printer",
+                "Dot matrix printer"
+            ]
+        }
+    ]
+}

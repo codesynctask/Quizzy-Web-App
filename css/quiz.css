@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: lightseagreen;
+}
+
+body{
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+}
+
+.question_form{
+    border: 1px solid rgba(255, 255, 255, 0.428);
+    width: 90%;
+    min-height: fit-content;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.question_form h1{
+    margin: 0 0 5vh 0;
+}
+
+.question_form .option{
+    /* border: 1px solid red; */
+    margin-top: -5vh;
+    padding:  5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.question_form .option .option_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3vh;
+    
+}
+ .qus_btn{
+    border-top: 1px solid rgba(255, 255, 255, 0.51);
+    width:100%;
+    /* width: 50%; */
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 4vh;
+    align-self: center;
+    padding: 3vh; 
+    margin-bottom: -3vh;
+
+}
+
+.qus_btn button{
+    padding: 1vh 3vh;
+    font-size: 3vh;
+    width: 10vw;
+    min-width: fit-content;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    align-self: center;
+    cursor: pointer;
+}

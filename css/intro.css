@@ -1,0 +1,46 @@
+#intro{
+    /* background-color: red; */
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+}
+#intro #intro_msg{
+    /* border: 1px solid white; */
+    /* background-color: green; */
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 5vw;
+    gap: 5vh;
+}
+
+#intro #intro_msg h1{
+    margin: 0;
+}
+
+#intro #intro_msg h1 span{
+    color: white;
+    font-weight: 900;
+    font-size: 1.3em;
+
+}
+#intro #intro_msg p{
+    text-align: justify;
+    font-size: 2.5vh;
+    font-weight: 100;
+}
+#intro #into_img{
+    /* border: 1px solid white; */
+    background-color: green;
+    background-image: url(../public/img/intro.gif);
+    background-size: contain;
+    width: 60%;
+    height: 100%;
+}

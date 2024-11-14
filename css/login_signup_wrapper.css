@@ -1,0 +1,42 @@
+
+.login_signup_wrapper{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.btn_wrapper{
+    width: 40%;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    padding: 0 5vw;
+}
+.login_signup_wrapper .btn_wrapper button{
+    margin: 2vh 0;
+    padding: 2vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    /* word-wrap: none; */
+    word-wrap:normal;
+    font-weight: 800;
+}
+.login_signup_wrapper .btn_wrapper button:first-child{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.login_signup_wrapper h1,p{
+    color: white;
+   margin-bottom: 5vh;
+}
+
+.login_signup_wrapper p{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.683);
+}
