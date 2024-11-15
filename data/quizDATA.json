@@ -5,6 +5,18 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
+            "question": "How many bits make up the significand portion of a single precision floating point number?",
+            "correct_answer": "23",
+            "incorrect_answers": [
+                "8",
+                "53",
+                "15"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
             "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
             "correct_answer": "Midnight, January 1, 1970",
             "incorrect_answers": [
@@ -17,36 +29,12 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
-            "correct_answer": "Taiwan",
+            "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+            "correct_answer": "Year",
             "incorrect_answers": [
-                "United States",
-                "Germany",
-                "China (People&#039;s Republic of)"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": ".rs is the top-level domain for what country?",
-            "correct_answer": "Serbia",
-            "incorrect_answers": [
-                "Romania",
-                "Russia",
-                "Rwanda"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "What does the acronym CDN stand for in terms of networking?",
-            "correct_answer": "Content Delivery Network",
-            "incorrect_answers": [
-                "Content Distribution Network",
-                "Computational Data Network",
-                "Compressed Data Network"
+                "Four Years",
+                "Two Years",
+                "Eight Years"
             ]
         },
         {
@@ -65,60 +53,72 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "What does the term GPU stand for?",
-            "correct_answer": "Graphics Processing Unit",
+            "question": "In programming, what do you call functions with the same name but different implementations?",
+            "correct_answer": "Overloading",
             "incorrect_answers": [
-                "Gaming Processor Unit",
-                "Graphite Producing Unit",
-                "Graphical Proprietary Unit"
+                "Overriding",
+                "Abstracting",
+                "Inheriting"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
-            "correct_answer": "?:",
+            "question": "Generally, which component of a computer draws the most power?",
+            "correct_answer": "Video Card",
             "incorrect_answers": [
-                "??",
-                "if then",
-                "?"
+                "Hard Drive",
+                "Processor",
+                "Power Supply"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
-            "correct_answer": "&lt;marquee&gt;&lt;\/marquee&gt;",
+            "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+            "correct_answer": "Heat Sink",
             "incorrect_answers": [
-                "&lt;scroll&gt;&lt;\/scroll&gt;",
-                "&lt;move&gt;&lt;\/move&gt;",
-                "&lt;slide&gt;&lt;\/slide&gt;"
+                "CPU Vent",
+                "Temperature Decipator",
+                "Heat Vent"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "What is the main CPU is the Sega Mega Drive \/ Sega Genesis?",
-            "correct_answer": "Motorola 68000",
+            "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+            "correct_answer": "New Mexico",
             "incorrect_answers": [
-                "Zilog Z80",
-                "Yamaha YM2612",
-                "Intel 8088"
+                "Washington",
+                "Colorado",
+                "Arizona"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "What is the number of keys on a standard Windows Keyboard?",
-            "correct_answer": "104",
+            "question": "What does &quot;LCD&quot; stand for?",
+            "correct_answer": "Liquid Crystal Display",
             "incorrect_answers": [
-                "64",
-                "94",
-                "76"
+                "Language Control Design",
+                "Last Common Difference",
+                "Long Continuous Design"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": ".rs is the top-level domain for what country?",
+            "correct_answer": "Serbia",
+            "incorrect_answers": [
+                "Romania",
+                "Russia",
+                "Rwanda"
             ]
         }
     ]

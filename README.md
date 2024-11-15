@@ -10,7 +10,5 @@
 4. randomize each option to user✅
 5. collect all answers in session as array of answers✅
 6. compare user_ans with correct_ans array using loop => each correct comparision will increase uers marks✅
-7. call api very time on click to get new data
 
-
-
+## send mail using php in contact.php

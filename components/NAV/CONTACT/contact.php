@@ -20,7 +20,7 @@
     <h2>We'd love to hear from you!</h2>
     <p>If you have any questions or need assistance, please fill out the form below and we’ll get back to you as soon as possible.</p>
 
-    <form action="/submit-contact-form" method="POST">
+    <form action="./contact_data.php" method="POST">
       <!-- Name -->
       <label for="name">Your Name</label>
       <input type="text" id="name" name="name" required placeholder="Enter your name">
@@ -34,8 +34,8 @@
       <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
 
       <!-- Submit Button -->
+      <button type="submit">Send Message</button>
     </form>
-    <button type="submit">Send Message</button>
   </div>
 
   <footer>
