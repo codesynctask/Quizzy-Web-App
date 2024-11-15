@@ -1,7 +1,7 @@
 #intro{
     /* background-color: red; */
     width: 90%;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,9 @@
     /* border: 1px solid white; */
     background-color: green;
     background-image: url(../public/img/intro.gif);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 60%;
     height: 100%;
+    border-radius: 10px;
 }

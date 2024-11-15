@@ -24,7 +24,7 @@
     require "./profile_body.php";
     echo "<script>console.log('user logged in success')</script>";
   } else {
-    // echo "<script>alert('Make sure you are login first')</script>";
+    echo "<script>alert('Make sure you are login first')</script>";
     echo "<h1>Login Not Found</h1>";
   }
 

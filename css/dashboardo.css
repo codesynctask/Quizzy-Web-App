@@ -1,8 +1,7 @@
 #dashboard{
     width: 90%;
     min-height: fit-content;
-    height: 80vh;
-    
+    height: 60vh;
     align-self: center;
     display: flex;
     justify-content: start;
@@ -13,7 +12,8 @@
     height: 100%;
     width: 40%;
     /* background-color: lightseagreen; */
-    border: 3px solid lightseagreen;
+    border: 5px solid red;
+    outline: 3px solid white;
     color: white;
     display: flex;
     justify-content: center;
@@ -21,6 +21,7 @@
     align-items:center;
     padding: 5vh;
     gap: 5vh;
+    border-radius: 10px;
 }
 #dashboard #dashboard_details{
     height: 100%;
@@ -32,6 +33,19 @@
     padding: 5vh;
     gap: 5vh;
     text-align: justify;
+}
+#dashboard #dashboard_details h1{
+    color: lightseagreen;
+}
+#dashboard #dashboard_cover h1 span{
+    color: lightseagreen;
+    font-weight: 900;
+    font-size: 1.7em;
+}
+#dashboard #dashboard_details h1 span{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1.7em;
 }
 
 #dashboard  h1{

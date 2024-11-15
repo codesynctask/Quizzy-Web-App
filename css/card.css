@@ -12,8 +12,8 @@
   overflow-y: hidden;
   padding: 10vh 5vh;
   cursor: not-allowed;
-  border-top: 2px solid rgba(255, 255, 255, 0.521);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.521);
+  border-top: 1px solid rgba(255, 255, 255, 0.521);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.521);
 }
 
 .card {

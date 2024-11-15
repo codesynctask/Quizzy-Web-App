@@ -32,7 +32,7 @@
       <div class="stat-box">
         <?php
         if ($user_total_score >= 0) {
-          echo "<h3>Total Score</h3>";
+          echo "<h3>Total Score (max : ".($user_completed_quiz*10).")</h3>";
           echo "<p>$user_total_score</p>";
         } else {
           echo "<h2>Total Score</h2>";
@@ -43,7 +43,7 @@
       <div class="stat-box">
         <h3>Average Marks</h3>
         <?php
-        echo "<p>". $user_total_score/$user_completed_quiz ."% </p>";
+        echo "<p>". round($user_total_score/$user_completed_quiz) ."/10 </p>";
         ?>
       </div>
     </div>

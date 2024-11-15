@@ -74,13 +74,12 @@
         $user_completed_quiz++;
         $user_total_score += $user_correct_marks_got;
 
-        $sql_update = "UPDATE `quiz_web_app_user` 
-               SET `user_completed_quiz` = '$user_completed_quiz', 
-                   `user_total_score` = '$user_total_score' 
-               WHERE `user_mail` = '" . $_SESSION["log_user_data"]["mail"] . "' 
-               AND `user_password` = '" . $_SESSION["log_user_data"]["pass"] . "'";
+        $sql_update = "UPDATE `quiz_web_app_user` SET `user_completed_quiz` = '$user_completed_quiz', `user_total_score` = '$user_total_score' WHERE `user_mail` = '" . $_SESSION["log_user_data"]["mail"] . "' AND `user_password` = '" . $_SESSION["log_user_data"]["pass"] . "'";
+        $set_user_average_sql = "UPDATE `quiz_web_app_user` SET `user_average_score` = IF(`user_completed_quiz` > 0, `user_total_score` / `user_completed_quiz`, 0)";
+        
 
-        $write_result = $conn->query($sql_update);
+        $write_result = $conn->query($sql_update); 
+        $set_average_result = $conn->query($set_user_average_sql); 
 
         if ($write_result) {
             echo "<script>console.log('user Data Updated')</script>";
