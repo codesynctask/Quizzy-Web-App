@@ -3,122 +3,122 @@
     "results": [
         {
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
-            "correct_answer": "Year",
+            "question": "In computing, what does LAN stand for?",
+            "correct_answer": "Local Area Network",
             "incorrect_answers": [
-                "Four Years",
-                "Two Years",
-                "Eight Years"
+                "Long Antenna Node",
+                "Light Access Node",
+                "Land Address Navigation"
             ]
         },
         {
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What is known as &quot;the brain&quot; of the Computer?",
-            "correct_answer": "Central Processing Unit",
+            "question": "How many kilobytes in one gigabyte (in decimal)?",
+            "correct_answer": "1000000",
             "incorrect_answers": [
-                "Motherboard",
-                "Graphics Processing Unit",
-                "Keyboard"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "In computing terms, typically what does CLI stand for?",
-            "correct_answer": "Command Line Interface",
-            "incorrect_answers": [
-                "Common Language Input",
-                "Control Line Interface",
-                "Common Language Interface"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
-            "correct_answer": "print(&quot;Hello World&quot;)",
-            "incorrect_answers": [
-                "console.log(&quot;Hello World&quot;)",
-                "echo &quot;Hello World&quot;",
-                "printf(&quot;Hello World&quot;)"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
-            "correct_answer": "Clipper Chip",
-            "incorrect_answers": [
-                "Enigma Machine",
-                "Skipjack",
-                "Nautilus"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
-            "correct_answer": "Amazon",
-            "incorrect_answers": [
-                "eBay",
-                "Overstock",
-                "Shopify"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
-            "correct_answer": "C#",
-            "incorrect_answers": [
-                "Java",
-                "C++",
-                "Objective-C"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "How many bytes are in a single Kibibyte?",
-            "correct_answer": "1024",
-            "incorrect_answers": [
-                "2400",
+                "1024",
                 "1000",
-                "1240"
+                "1048576"
             ]
         },
         {
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
-            "correct_answer": "Shamir",
+            "question": "What does the Prt Sc button do?",
+            "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
             "incorrect_answers": [
-                "Secure",
-                "Schottky",
-                "Stable"
+                "Nothing",
+                "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
+                "Closes all windows"
             ]
         },
         {
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "In programming, what do you call functions with the same name but different implementations?",
-            "correct_answer": "Overloading",
+            "question": "What does the computer software acronym JVM stand for?",
+            "correct_answer": "Java Virtual Machine",
             "incorrect_answers": [
-                "Overriding",
-                "Abstracting",
-                "Inheriting"
+                "Java Vendor Machine",
+                "Java Visual Machine",
+                "Just Virtual Machine"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "On Twitter, what was the original character limit for a Tweet?",
+            "correct_answer": "140",
+            "incorrect_answers": [
+                "120",
+                "160",
+                "100"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does GHz stand for?",
+            "correct_answer": "Gigahertz",
+            "incorrect_answers": [
+                "Gigahotz",
+                "Gigahetz",
+                "Gigahatz"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does the &quot;MP&quot; stand for in MP3?",
+            "correct_answer": "Moving Picture",
+            "incorrect_answers": [
+                "Music Player",
+                "Multi Pass",
+                "Micro Point"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+            "correct_answer": "Binary",
+            "incorrect_answers": [
+                "JavaScript",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What is the most preferred image format used for logos in the Wikimedia database?",
+            "correct_answer": ".svg",
+            "incorrect_answers": [
+                ".png",
+                ".jpeg",
+                ".gif"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+            "correct_answer": "Objective-C",
+            "incorrect_answers": [
+                "C#",
+                "Ruby",
+                "C++"
             ]
         }
     ]

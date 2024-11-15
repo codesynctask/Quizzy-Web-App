@@ -18,5 +18,6 @@ if ($read_result->num_rows > 0) {
         $user_password = $row["user_password"];
     }
 } else {
-    echo "0 read_results";
+    echo "<script>console.log('No data found from database')</script>";
+
 }

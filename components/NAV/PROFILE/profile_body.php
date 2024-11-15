@@ -41,8 +41,10 @@
         ?>
       </div>
       <div class="stat-box">
-        <h3>Ranking</h3>
-        <p>#5</p>
+        <h3>Average Marks</h3>
+        <?php
+        echo "<p>". $user_total_score/$user_completed_quiz ."% </p>";
+        ?>
       </div>
     </div>
 
@@ -71,6 +73,6 @@
     <!-- Action Buttons -->
     <div class="button-container">
       <button class="btn">Edit Profile</button>
-      <button class="btn">Change Password</button>
+      <button class="btn">Log Out</button>
     </div>
   </div>

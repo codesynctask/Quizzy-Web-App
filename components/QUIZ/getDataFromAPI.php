@@ -1,5 +1,5 @@
 <?php
-$api_url = 'https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple';
+$api_url = 'https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple';
 $file_path_to_store = "C:/wamp64/www/ARTH/QUIZ_WEB_APPP/data/quizDATA.json";
 
 // Fetch data from API

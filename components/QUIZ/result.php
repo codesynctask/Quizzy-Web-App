@@ -13,6 +13,7 @@
 <body>
     <?php
     session_start();
+
     require "../NAV/nav.php"; //getting navbar
     include "./useData.php"; //using $quizArray
 
@@ -27,53 +28,57 @@
 
     // if answer array is not empty
     if (count($_SESSION["user_answer_array"]) > 0) {
-    // Calculating user score
-    $user_correct_marks_got = 0;
-    for ($i = 0; $i < 10; $i++) {
-        if (isset($_SESSION["user_answer_array"][$i])) {
-            if ($_SESSION["user_answer_array"][$i] == $quizArray[$i]["correct_answer"]) {
-                ++$user_correct_marks_got;
+        // Calculating user score
+        $user_correct_marks_got = 0;
+        for ($i = 0; $i < 10; $i++) {
+            if (isset($_SESSION["user_answer_array"][$i])) {
+                if ($_SESSION["user_answer_array"][$i] == $quizArray[$i]["correct_answer"]) {
+                    ++$user_correct_marks_got;
+                }
             }
         }
-    }
 
-    // Store the correct answers in session
-    $_SESSION["user_marks"] = $user_correct_marks_got;
-    echo "<h2>Your Score: " . $user_correct_marks_got . "/10</h2>";
+        // Store the correct answers in session
+        $_SESSION["user_marks"] = $user_correct_marks_got;
+        echo "<h2>Your Score: " . $user_correct_marks_got . "/10</h2>";
 
     ?>
 
-    <table>
-        <tr>
-            <th>Questions</th>
-            <th>Your Answer</th>
-            <th>Correct Answer</th>
-            <th>Status</th> 
-        </tr>
-        <?php
-        for ($i = 0; $i < 10; $i++) {
-            $userAnswer = isset($_SESSION["user_answer_array"][$i]) ? $_SESSION["user_answer_array"][$i] : "Not Answered";
-            $correctAnswer = $quizArray[$i]["correct_answer"];
-            $status = ($userAnswer == $correctAnswer) ? "Correct" : "Incorrect";
-
-            echo "
+        <table>
             <tr>
-                <td>" . ($i + 1) . ". " . $quizArray[$i]["question"] . "</td>
-                <td>" . $userAnswer . "</td>
-                <td>" . $correctAnswer . "</td>
-                <td>" . $status . "</td> 
-            </tr>";
-        }
-        ?>
-    </table>
+                <th>Questions</th>
+                <th>Your Answer</th>
+                <th>Correct Answer</th>
+                <th>Status</th>
+            </tr>
+            <?php
+            for ($i = 0; $i < 10; $i++) {
+                $userAnswer = isset($_SESSION["user_answer_array"][$i]) ? $_SESSION["user_answer_array"][$i] : "Not Answered";
+                $correctAnswer = $quizArray[$i]["correct_answer"];
+                $status = ($userAnswer == $correctAnswer) ? "Correct" : "Incorrect";
+
+                echo "
+                <tr>
+                    <td>" . ($i + 1) . ". " . $quizArray[$i]["question"] . "</td>
+                    <td>" . $userAnswer . "</td>
+                    <td>" . $correctAnswer . "</td>
+                    <td>" . $status . "</td> 
+                </tr>";
+            }
+            ?>
+        </table>
 
     <?php
-    require "../NAV/PROFILE/get_profile_data.php"; //get loggeed user data from db
+        require "../NAV/PROFILE/get_profile_data.php"; //get loggeed user data from db
         // if user answer array is greater than 0
         $user_completed_quiz++;
         $user_total_score += $user_correct_marks_got;
 
-        $sql_update = "UPDATE `quiz_web_app_user` SET `user_completed_quiz` = '$user_completed_quiz', `user_total_score` = '$user_total_score' WHERE `quiz_web_app_user`.`user_id` = 1";
+        $sql_update = "UPDATE `quiz_web_app_user` 
+               SET `user_completed_quiz` = '$user_completed_quiz', 
+                   `user_total_score` = '$user_total_score' 
+               WHERE `user_mail` = '" . $_SESSION["log_user_data"]["mail"] . "' 
+               AND `user_password` = '" . $_SESSION["log_user_data"]["pass"] . "'";
 
         $write_result = $conn->query($sql_update);
 
@@ -82,15 +87,13 @@
         } else {
             echo "<script>console.log('user data not updated!!')</script>";
         }
-    
 
-    require "../SESSION_TASK/reset_session_var.php"; //reset quiz session
-    require "./getDataFromAPI.php"; //reset question again
+        require "../SESSION_TASK/reset_session_var.php"; //reset quiz session
+        require "./getDataFromAPI.php"; //reset question again
 
-    }else{
+    } else {
         echo "<script>alert('answer key not found ')</script>";
         echo "<h1>start quiz again to see result!!</h1>";
-
     }
 
     require "../FOOTER/footer.php";

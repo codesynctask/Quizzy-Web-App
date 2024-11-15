@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Profile</title>
-  <link rel="stylesheet" href="../../../css/profile1.css">
+  <link rel="stylesheet" href="../../../css/profile.css">
   <link rel="stylesheet" href="../../../css/nav.css">
   <link rel="stylesheet" href="../../../css/footer.css">
 
@@ -24,7 +24,7 @@
     require "./profile_body.php";
     echo "<script>console.log('user logged in success')</script>";
   } else {
-    echo "<script>alert('Make sure you are login first')</script>";
+    // echo "<script>alert('Make sure you are login first')</script>";
     echo "<h1>Login Not Found</h1>";
   }
 

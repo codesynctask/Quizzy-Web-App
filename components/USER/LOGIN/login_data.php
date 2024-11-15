@@ -19,12 +19,13 @@ if (mysqli_num_rows($read_result)) {
     //setting login session
     $_SESSION["log_user_data"] = [
         "mail" => $user_mail,
-        "pass" => $user_mail,
+        "pass" => $user_pass,
         "login_success" => true
     ];
     header("Location: ../../../index.php");
     exit();
 } else {
-
-    echo "user Not found with email = $user_mail and pass = $user_pass";
+    echo "<script>console.log('user Not found with email = $user_mail and pass = $user_pass')</script>";
+    header("Location: ../SIGNUP/signUpHome.php");
+    exit();
 }
