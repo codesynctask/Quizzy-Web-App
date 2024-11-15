@@ -17,21 +17,32 @@
 
 <body>
     <?php
-    // write these components as ternery operators if these file are not there show a 404 text idea or just blank
+    if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
 
-        //Functional components
-        require "./components/DATABASE/connect_mysql.php";
-        require "./components/SESSION_TASK/reset_session_var.php";
-        require "./components/QUIZ/getDataFromAPI.php";
+    //Functional components
+    require "./components/DATABASE/connect_mysql.php";
+    require "./components/SESSION_TASK/reset_session_var.php";
 
-        // UI components
-        require "./components/NAV/nav.php";
+    //debuugg
+    // var_dump($_SESSION);
+
+    // UI components
+    require "./components/NAV/nav.php";
+
+    if (isset($_SESSION["log_user_data"]["login_success"]) && $_SESSION["log_user_data"]["login_success"]) {
+        echo "<script>console.log('user logged in success')</script>";
+    } else {
         require "./components/NAV/LOGIN_SIGNUP_WRAPPER/login_signup_wrapper.php";
-        require "./components/INTRO_HOME/INTRO.PHP";
-        require "./components/DASHBOARD/dashboard.php"; //or intro page
-        require "./components/CARD/card.php";
-        require "./components/FEEDBACK/feedback.php";
-        require "./components/FOOTER/footer.php";
+    }
+
+
+    require "./components/INTRO_HOME/INTRO.PHP";
+    require "./components/DASHBOARD/dashboard.php"; //or intro page
+    require "./components/CARD/card.php";
+    require "./components/FEEDBACK/feedback.php";
+    require "./components/FOOTER/footer.php";
     ?>
 
 

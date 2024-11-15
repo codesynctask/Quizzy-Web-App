@@ -67,11 +67,13 @@
     </table>
 
     <footer>
-        <p>© 2024 Your Quiz Site. All rights reserved.</p>
+        <p>© 2024 .Quizz. All rights reserved.</p>
     </footer>
 
     <?php
-    require "../SESSION_TASK/reset_session_var.php";
+    require "../SESSION_TASK/reset_session_var.php"; //reset quiz session
+    require "./getDataFromAPI.php"; //reset question again
+
 
     ?>
 

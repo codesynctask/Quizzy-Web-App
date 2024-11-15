@@ -5,84 +5,60 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
-            "correct_answer": "Year",
+            "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+            "correct_answer": "Midnight, January 1, 1970",
             "incorrect_answers": [
-                "Four Years",
-                "Two Years",
-                "Eight Years"
+                "Midnight, July 4, 1976",
+                "Midnight on the creator of Unix&#039;s birthday",
+                "Midnight, July 4, 1980"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "The teapot often seen in many 3D modeling applications is called what?",
-            "correct_answer": "Utah Teapot",
+            "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+            "correct_answer": "Taiwan",
             "incorrect_answers": [
-                "Pixar Teapot",
-                "3D Teapot",
-                "Tennessee Teapot"
+                "United States",
+                "Germany",
+                "China (People&#039;s Republic of)"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
-            "correct_answer": "Inkscape",
+            "question": ".rs is the top-level domain for what country?",
+            "correct_answer": "Serbia",
             "incorrect_answers": [
-                "Paint.NET",
-                "GIMP",
-                "Adobe Photoshop"
+                "Romania",
+                "Russia",
+                "Rwanda"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "What does RAID stand for?",
-            "correct_answer": "Redundant Array of Independent Disks",
+            "question": "What does the acronym CDN stand for in terms of networking?",
+            "correct_answer": "Content Delivery Network",
             "incorrect_answers": [
-                "Rapid Access for Indexed Devices",
-                "Range of Applications with Identical Designs",
-                "Randomized Abstract Identification Description"
+                "Content Distribution Network",
+                "Computational Data Network",
+                "Compressed Data Network"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "How fast is USB 3.1 Gen 2 theoretically?",
-            "correct_answer": "10 Gb\/s",
+            "question": "Which one of these is not an official development name for a Ubuntu release?",
+            "correct_answer": "Mystic Mansion",
             "incorrect_answers": [
-                "5 Gb\/s",
-                "8 Gb\/s",
-                "1 Gb\/s"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "What is known as &quot;the brain&quot; of the Computer?",
-            "correct_answer": "Central Processing Unit",
-            "incorrect_answers": [
-                "Motherboard",
-                "Graphics Processing Unit",
-                "Keyboard"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "On which day did the World Wide Web go online?",
-            "correct_answer": "December 20, 1990",
-            "incorrect_answers": [
-                "December 17, 1996",
-                "November 12, 1990",
-                "November 24, 1995"
+                "Trusty Tahr",
+                "Utopic Unicorn",
+                "Wily Werewolf"
             ]
         },
         {
@@ -101,24 +77,48 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": ".at is the top-level domain for what country?",
-            "correct_answer": "Austria",
+            "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+            "correct_answer": "?:",
             "incorrect_answers": [
-                "Argentina",
-                "Australia",
-                "Angola"
+                "??",
+                "if then",
+                "?"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "Laserjet and inkjet printers are both examples of what type of printer?",
-            "correct_answer": "Non-impact printer",
+            "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+            "correct_answer": "&lt;marquee&gt;&lt;\/marquee&gt;",
             "incorrect_answers": [
-                "Impact printer",
-                "Daisywheel printer",
-                "Dot matrix printer"
+                "&lt;scroll&gt;&lt;\/scroll&gt;",
+                "&lt;move&gt;&lt;\/move&gt;",
+                "&lt;slide&gt;&lt;\/slide&gt;"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the main CPU is the Sega Mega Drive \/ Sega Genesis?",
+            "correct_answer": "Motorola 68000",
+            "incorrect_answers": [
+                "Zilog Z80",
+                "Yamaha YM2612",
+                "Intel 8088"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the number of keys on a standard Windows Keyboard?",
+            "correct_answer": "104",
+            "incorrect_answers": [
+                "64",
+                "94",
+                "76"
             ]
         }
     ]
