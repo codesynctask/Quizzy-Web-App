@@ -12,3 +12,6 @@
 6. compare user_ans with correct_ans array using loop => each correct comparision will increase uers marks✅
 
 ## send mail using php in contact.php
+
+* make user use play quiz only if he is logged.
+* then store his data like how many times they played etc to db.

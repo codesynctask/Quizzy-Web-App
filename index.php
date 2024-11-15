@@ -28,7 +28,7 @@
     //debuugg
     // var_dump($_SESSION);
 
-    // UI components
+    // UI components 
     require "./components/NAV/nav.php";
 
     if (isset($_SESSION["log_user_data"]["login_success"]) && $_SESSION["log_user_data"]["login_success"]) {

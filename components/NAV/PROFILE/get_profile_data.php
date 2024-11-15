@@ -1,8 +1,7 @@
 <?php
-require "../../DATABASE/connect_mysql.php";
+require "C:\wamp64\www\ARTH\QUIZ_WEB_APPP\components\DATABASE\connect_mysql.php";
 
 $sql_read = "SELECT * FROM `quiz_web_app_user` WHERE `user_mail` = 'deepak92059sharma@gmail.com' AND `user_password` = '123'";
-$read_result = mysqli_query($conn, $sql_read);
 
 $read_result = $conn->query($sql_read);
 

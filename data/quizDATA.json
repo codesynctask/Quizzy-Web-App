@@ -5,30 +5,6 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "How many bits make up the significand portion of a single precision floating point number?",
-            "correct_answer": "23",
-            "incorrect_answers": [
-                "8",
-                "53",
-                "15"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
-            "correct_answer": "Midnight, January 1, 1970",
-            "incorrect_answers": [
-                "Midnight, July 4, 1976",
-                "Midnight on the creator of Unix&#039;s birthday",
-                "Midnight, July 4, 1980"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
             "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
             "correct_answer": "Year",
             "incorrect_answers": [
@@ -41,12 +17,96 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Science: Computers",
-            "question": "Which one of these is not an official development name for a Ubuntu release?",
-            "correct_answer": "Mystic Mansion",
+            "question": "What is known as &quot;the brain&quot; of the Computer?",
+            "correct_answer": "Central Processing Unit",
             "incorrect_answers": [
-                "Trusty Tahr",
-                "Utopic Unicorn",
-                "Wily Werewolf"
+                "Motherboard",
+                "Graphics Processing Unit",
+                "Keyboard"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In computing terms, typically what does CLI stand for?",
+            "correct_answer": "Command Line Interface",
+            "incorrect_answers": [
+                "Common Language Input",
+                "Control Line Interface",
+                "Common Language Interface"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+            "correct_answer": "print(&quot;Hello World&quot;)",
+            "incorrect_answers": [
+                "console.log(&quot;Hello World&quot;)",
+                "echo &quot;Hello World&quot;",
+                "printf(&quot;Hello World&quot;)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+            "correct_answer": "Clipper Chip",
+            "incorrect_answers": [
+                "Enigma Machine",
+                "Skipjack",
+                "Nautilus"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+            "correct_answer": "Amazon",
+            "incorrect_answers": [
+                "eBay",
+                "Overstock",
+                "Shopify"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+            "correct_answer": "C#",
+            "incorrect_answers": [
+                "Java",
+                "C++",
+                "Objective-C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "How many bytes are in a single Kibibyte?",
+            "correct_answer": "1024",
+            "incorrect_answers": [
+                "2400",
+                "1000",
+                "1240"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+            "correct_answer": "Shamir",
+            "incorrect_answers": [
+                "Secure",
+                "Schottky",
+                "Stable"
             ]
         },
         {
@@ -59,66 +119,6 @@
                 "Overriding",
                 "Abstracting",
                 "Inheriting"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "Generally, which component of a computer draws the most power?",
-            "correct_answer": "Video Card",
-            "incorrect_answers": [
-                "Hard Drive",
-                "Processor",
-                "Power Supply"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
-            "correct_answer": "Heat Sink",
-            "incorrect_answers": [
-                "CPU Vent",
-                "Temperature Decipator",
-                "Heat Vent"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "While Apple was formed in California, in which western state was Microsoft founded?",
-            "correct_answer": "New Mexico",
-            "incorrect_answers": [
-                "Washington",
-                "Colorado",
-                "Arizona"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": "What does &quot;LCD&quot; stand for?",
-            "correct_answer": "Liquid Crystal Display",
-            "incorrect_answers": [
-                "Language Control Design",
-                "Last Common Difference",
-                "Long Continuous Design"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Science: Computers",
-            "question": ".rs is the top-level domain for what country?",
-            "correct_answer": "Serbia",
-            "incorrect_answers": [
-                "Romania",
-                "Russia",
-                "Rwanda"
             ]
         }
     ]
