@@ -4,8 +4,8 @@
         <a href="/ARTH/QUIZ_WEB_APPP/components/USER/SIGNUP/signUpHome.php"><button>Sign up</button></a>
 
     </div>
-    <div>
-        <h1>Become a member and enjoy perks with awesome people!</h1>
+    <div class="login_msg_wrapper">
+        <h1>Become a <span>member</span> and enjoy perks with awesome <span>people</span>!</h1>
         <p>Looking for a community where you can have fun, learn, and grow?
             Becoming a member is the best way to unlock a world of exclusive benefits. You'll connect with like-minded individuals, engage in exciting activities, and enjoy all the perks that come with being part of something special. So why wait? Become a member and enjoy perks with awesome people!</p>
     </div>

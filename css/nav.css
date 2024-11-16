@@ -1,20 +1,28 @@
 nav{
     width: 90%;
+    /* min-height: fit-content; */
+    max-height: 15vh;
     border-bottom: 2px solid rgba(255, 255, 255, 0.259);
-
-    /* position: fixed; */
+    position: relative;
     top: 0;
+    z-index: 99;
     display: flex;
     justify-content: space-between;
+    padding: 2vh;
     align-items: center;
-    padding: 5vh 3vh;
     text-transform: uppercase;
- 
+    background-color: #111;
+    margin-bottom: 15px;
+    gap: 15px;
+    font-size: 1rem;
+    overflow: hidden;
 
 }
 nav h1{
+    /* nav icon */
     margin: 0;
     cursor: not-allowed;
+    font-size: 1.6em;
 }
 
 nav ul {
@@ -23,11 +31,12 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 2vw;
+    text-transform: capitalize;
 }
 
 nav ul a{
     text-decoration: none;
-    text-transform: capitalize;
+    font-size: 1em;
     color: red;
 }
 
@@ -38,7 +47,7 @@ nav button{
     background-color: lightseagreen;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 nav button {
