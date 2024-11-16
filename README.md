@@ -14,4 +14,9 @@
 ## send mail using php in contact.php
 
 * make user use play quiz only if he is logged.
-* then store his data like how many times they played etc to db.
+* then store his data like how many times they played etc to db
+
+
+task to do
+1. giving after before shadow effect in into bg
+2. 

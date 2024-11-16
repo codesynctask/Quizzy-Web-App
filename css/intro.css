@@ -36,7 +36,7 @@
     font-size: 2.5vh;
     font-weight: 100;
 }
-#intro #into_img{
+#intro #into_img_cont{
     /* border: 1px solid white; */
     background-color: green;
     background-image: url(../public/img/intro.gif);
@@ -45,4 +45,52 @@
     width: 60%;
     height: 100%;
     border-radius: 10px;
+    position: relative;
+
 }
+
+#intro #into_img_cont #into_img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background-image: url(../public/img/intro.gif);
+    border-radius: 10px;
+    background-size: cover;
+
+
+    
+}
+#intro #into_img_cont #into_img_blur{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+ 
+    /* background-image: url(../public/img/intro.gif); */
+    background-color: red;
+    position: absolute;
+    z-index: 9;
+    filter: blur(100px);
+    border-radius: 10px;
+
+
+    
+}
+
+/* #intro #into_img::before{
+    content: "aaa";
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+    background-image: url(../public/img/intro.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    filter: blur(100px);
+
+
+} */
+
+
