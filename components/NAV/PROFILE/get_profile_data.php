@@ -5,6 +5,8 @@ if (session_status() == PHP_SESSION_NONE) {
 require "C:\wamp64\www\ARTH\QUIZ_WEB_APPP\components\DATABASE\connect_mysql.php";
 if (isset($_SESSION["log_user_data"])) {
     $sql_read = "SELECT * FROM `quiz_web_app_user` WHERE `user_mail` = '" . $_SESSION["log_user_data"]["mail"] . "' AND `user_password` = '" . $_SESSION["log_user_data"]["pass"] . "'";
+    $set_user_average_sql = "UPDATE `quiz_web_app_user` SET `user_average_score` = IF(`user_completed_quiz` > 0, `user_total_score` / `user_completed_quiz`, 0)";
+    $set_user_average_sql = $conn->query($set_user_average_sql); 
     $read_result = $conn->query($sql_read);
 
     if ($read_result->num_rows > 0) {

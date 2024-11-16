@@ -16,7 +16,8 @@
 * make user use play quiz only if he is logged.
 * then store his data like how many times they played etc to db
 
-
+<hr>
 task to do
 1. giving after before shadow effect in into bg
-2. 
+2. getDatafromAPI => make this code to not set null in json
+3. creating logout page for profile page

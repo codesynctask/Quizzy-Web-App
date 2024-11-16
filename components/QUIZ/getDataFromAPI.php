@@ -6,7 +6,7 @@ $file_path_to_store = "C:/wamp64/www/ARTH/QUIZ_WEB_APPP/data/quizDATA.json";
 $jsonString = @file_get_contents($api_url);
 
 
-if ($jsonString === FALSE) {
+if ($jsonString === FALSE or $jsonString == null) {
     echo "<script>console.log('data not fetched | using hardcoded question');</script>";
     $jsonString = `{
         "response_code": 0,
