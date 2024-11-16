@@ -5,11 +5,13 @@ footer{
     align-items: center;
     flex-direction: column;
     padding: 5vh 2vw;
-    border-top: 2px solid rgba(255, 23, 23, 0.259);
+    border-top: 2px solid rgba(255, 255, 255, 0.683);
     align-self: center;
     background-color: #111;
     position: relative;
+    margin-top: 10vh;
     bottom: 0;
+    gap: 3vh;
 }
 footer a{
     text-decoration: none;

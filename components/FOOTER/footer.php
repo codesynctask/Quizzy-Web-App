@@ -1,19 +1,9 @@
 <footer>
     <div class="footer-content">
         <div class="footer-links">
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/terms-of-service">Terms of Service</a>
-        </div>
-
-        <div class="social-media">
-            <a href="" target="_blank"">
-            </a>
-            <a href="" target="_blank">
-            </a>
-            <a href="" target="_blank">
-            </a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Terms of Service</a>
         </div>
     </div>
 

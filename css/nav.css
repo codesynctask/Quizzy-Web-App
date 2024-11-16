@@ -16,7 +16,7 @@ nav{
     gap: 15px;
     font-size: 1rem;
     overflow: hidden;
-    margin-top: 8vh ;
+    border-top: 1px solid rgba(255, 255, 255, 0.259);
 
 }
 nav h1{

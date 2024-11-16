@@ -1,25 +1,27 @@
-#feedback_head{
+#feedback{
   width: 90%;
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+  position: relative;
+}
+
+#feedback_head{
+  width: 40%;
   padding: 2vh;
   padding-top: 4vh;
   margin-top: 5vh;
   text-transform: capitalize;
   text-align: center;
-  border-top: 3px solid #ffffff82;
+  border-top: 5px solid white;
 }
 #feedback_head span{
   color: white;
   font-size: 1.5em;
 }
 
-#feedback{
-  width: 90%;
-  height: 50vh;
-  min-height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 #feedback form{
   width: 60%;
@@ -30,9 +32,63 @@
   border: 4px solid rgb(255, 0, 0);
   outline: 2px solid white;
   border-radius: 8px;
-  padding: 2vh 2vw;
+  padding: 4vh 2vw;
   color: white;
+  background-color: #111;
+}
+
+#feedback form input{
+  background-color: #111;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: white;
+  padding: 1vh 0 ;
+  margin: 1vh 0;
+  width: 50%;
+  min-width: 100px;
+}
+
+#feedback textarea{
+  /* height: 50%; */
+  max-width: 600px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 #feedback form label{
   font-size: 1.2em;
 }
+#feedback form input[type="submit"]{
+  width: 200px;
+  min-width: fit-content;
+  background-color: lightseagreen;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  border: none;
+  transition: 0.4s;
+  padding: 3vh 2vw;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+#feedback form input[type="submit"]:hover{
+  background-color: white;
+  color: red;
+
+}
+
+@media (max-width: 600px) {
+  #feedback{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  #feedback h1{
+    width: 100%;
+  }
+  #feedback form{
+    width: 100%;
+  }
+} 
