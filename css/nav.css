@@ -16,7 +16,6 @@ nav{
     gap: 15px;
     font-size: 1rem;
     overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.259);
 
 }
 nav h1{
@@ -55,4 +54,9 @@ nav button {
     text-decoration: none;
     color: rgb(255, 255, 255);
 
+
+}
+nav button:hover{
+    background-color: white;
+    color: red;
 }

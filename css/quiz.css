@@ -3,24 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html,body{
     height: 100%;
-    width: 100vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #111;
-    color: lightseagreen;
+    width: 100%;
 }
-
 body{
-    height: fit-content;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    position: relative;
-    gap: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .question_form{
@@ -30,33 +21,53 @@ body{
     padding: 5vh;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    align-self: center;
+    justify-self: center;
+    
 }
 .question_form h1{
-    margin: 0 0 5vh 0;
+    margin: 3vh 0 5vh 0;
+    color: white;
 }
 
 .question_form .option{
-    /* border: 1px solid red; */
-    margin-top: -5vh;
-    padding:  5vh;
+    padding: 5vh;
     display: flex;
     justify-content: space-between;
     align-items: start;
     flex-direction: column;
     gap: 2vh;
-
+    width: 100%;
 }
 .question_form .option .option_list{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    gap: 3vh;
-    
+    width: 100%;
+    position: relative;
+}
+.question_form .option .option_list input[type="radio"]{
+    display: none;
+}
+.question_form .option .option_list label{
+    display: block;
+    padding: 2vh 3vw;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.question_form .option .option_list input[type="radio"]:checked + label{
+    background: lightseagreen;
+    border-color: white;
+}
+.question_form .option .option_list label:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
 }
  .qus_btn{
     border-top: 1px solid rgba(255, 255, 255, 0.51);
     width:100%;
-    /* width: 50%; */
     min-width: fit-content;
     display: flex;
     justify-content: center;
@@ -69,15 +80,32 @@ body{
 }
 
 .qus_btn button{
-    padding: 1vh 3vh;
-    font-size: 3vh;
-    width: 10vw;
+    width: 200px;
     min-width: fit-content;
-    border: none;
     background-color: lightseagreen;
-    color: white;
-    font-weight: 900;
-    text-transform: uppercase;
-    align-self: center;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    transition: 0.4s;
+    padding: 3vh 2vw;
     cursor: pointer;
+    float: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+.qus_btn button:hover{
+    background-color: white;
+    color: lightseagreen;
+}
+@media (max-width: 600px){
+    .question_form{
+        width: 95%;
+        padding: 3vh;
+    }
+    
+    .question_form .option{
+        padding: 3vh;
+    }
 }

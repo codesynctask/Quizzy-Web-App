@@ -92,7 +92,7 @@
 
     } else {
         echo "<script>alert('answer key not found ')</script>";
-        echo "<h1>start quiz again to see result!!</h1>";
+        echo '<div class="answer-error"><h1>Start quiz again to see result!</h1></div>';
     }
 
     require "../FOOTER/footer.php";

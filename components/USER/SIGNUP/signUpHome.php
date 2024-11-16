@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../../../css/signUpHome.css">
+    <link rel="stylesheet" href="../../../css/index.css">
+    <link rel="stylesheet" href="../../../css/nav.css">
+    <link rel="stylesheet" href="../../../css/footer.css">
     <title>Sign Up portal</title>
 </head>
 
 <body>
+    <?php
+    require "../../NAV/nav.php";
+    ?>
+    
     <header>
         <h2>Sign Up Page</h2>
     </header>
@@ -31,9 +37,9 @@
         </form>
     </div>
 
-    <footer>
-        <p>© 2024 Your Quiz Site. All rights reserved.</p>
-    </footer>
+    <?php
+    require "../../FOOTER/footer.php";
+    ?>
 </body>
 
 </html>
