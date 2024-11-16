@@ -1,55 +1,71 @@
 #dashboard{
-    width: 90%;
+    height: 50vh;
     min-height: fit-content;
-    height: 60vh;
-    align-self: center;
+    width: 90vw;
     display: flex;
-    justify-content: start;
-    align-items: start;
-    
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 10vh 0;
+    font-size: 1rem;
 }
-#dashboard #dashboard_cover{
-    height: 100%;
-    width: 40%;
-    /* background-color: lightseagreen; */
-    border: 5px solid red;
-    outline: 3px solid white;
+#dashboard *{
+    font-size: 1em;
+}
+#dashboard h1{
+    font-size: 1.8em;
+}
+#dashboard p{
     color: white;
+}
+#dashboard h1:first-child span{
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+}
+
+#dashboard #dashboard_cover{
+    width: 40%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    align-items:center;
-    padding: 5vh;
-    gap: 5vh;
-    border-radius: 10px;
+    gap: 15px;
+    padding: 3vh 3vw;
+    border-radius: 8px;
+    border: 5px solid red;
+    outline: 2px solid white;
+    color: white;
+
+}
+#dashboard #dashboard_cover h1{
+    color: white;
 }
 #dashboard #dashboard_details{
-    height: 100%;
     width: 60%;
+    height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    align-items:center;
-    padding: 5vh;
-    gap: 5vh;
-    text-align: justify;
-}
-#dashboard #dashboard_details h1{
-    color: lightseagreen;
-}
-#dashboard #dashboard_cover h1 span{
-    color: lightseagreen;
-    font-weight: 900;
-    font-size: 1.7em;
-}
-#dashboard #dashboard_details h1 span{
-    color: rgb(255, 255, 255);
-    font-weight: 900;
-    font-size: 1.7em;
+    gap: 15px;
+    padding: 3vh 3vw;
+
 }
 
-#dashboard  h1{
-    margin: 0;
-    color: white;
-}
 
+/* responsive */
+@media screen and (max-width: 600px) {
+    #dashboard{
+        /* font-size: 1.2rem; */
+        flex-direction: column;
+        gap: 3vh;
+        /* border: 2px solid yellow; */
+    }
+    #dashboard #dashboard_cover{
+        width: 100%;    
+    }
+    #dashboard #dashboard_details{
+        width: 100%;
+    }
+}
