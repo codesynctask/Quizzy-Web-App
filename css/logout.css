@@ -1,0 +1,90 @@
+body {
+    background-color: #000000;
+}
+#logout_form {
+    width: 60%;
+    height: fit-content;
+    margin: auto 0;
+    border: 3px solid rgb(255, 255, 255);
+    outline: 2px solid rgb(255, 4, 4);
+    padding: 5vh 3vw;
+    border-radius: 8px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+#logout_form > h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#logout_form  input[type="radio"] {
+    display: none;
+}
+#logout_form  input[type="radio"]:checked + label {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+#confirm_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0;
+    gap: 2vw;
+}
+#logout_form  label {
+    font-size: 1.3rem;
+    background-color: #111;
+    border: 1px solid white;
+    padding: 1vh 2vw;
+    border-radius: 8px;
+    width: 40%;
+    min-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 2vh 0;
+}
+#logout_form  label:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+#logout_form > input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    min-width: 200px;
+    padding: 2vh 0;
+    border-radius: 8px;
+    border: none;
+    background-color: lightseagreen;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1.3rem;
+
+}
+#logout_form > input[type="submit"]:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+@media (max-width: 600px) {
+    #logout_form {
+        width: 90%;
+    }
+    #confirm_container {
+        flex-direction: column;
+        width: 100%;
+        gap: 3vh;
+    }
+    #confirm_container > label {
+        width: 100%;
+    }
+    #logout_form > input[type="submit"] {
+        width: 100%;
+    }
+    
+    
+
+}
