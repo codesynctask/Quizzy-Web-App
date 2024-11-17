@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../../../css/profile.css">
   <link rel="stylesheet" href="../../../css/index.css">
   <link rel="stylesheet" href="../../../css/nav.css">
+  <link rel="stylesheet" href="../../../css/login_signup_wrapper.css">
   <link rel="stylesheet" href="../../../css/footer.css">
 </head>
 
@@ -25,7 +26,8 @@
     echo "<script>console.log('user logged in success')</script>";
   } else {
     echo "<script>alert('Make sure you are login first')</script>";
-    echo '<div class="login-error"><h1>Login Not Found</h1></div>';
+    // echo '<div class="login-error"><h1>Login Not Found</h1></div>';
+    require "../LOGIN_SIGNUP_WRAPPER/login_signup_wrapper.php";
   }
 
   require "../../FOOTER/footer.php";
