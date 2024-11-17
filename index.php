@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/dashboardo.css">
-    <link rel="stylesheet" href="./css/card1.css">
+    <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/intro.css">
     <link rel="stylesheet" href="./css/feedback.css">
     <link rel="stylesheet" href="./css/login_signup_wrapper.css">

@@ -75,6 +75,6 @@
   <!-- Action Buttons -->
   <div class="button-container">
     <a href=""><button>Edit Profile</button></a>
-    <a href=""><button>Log Out</button></a>
+    <a href="../../USER/LOGOUT/logout_confirm.php"><button>Log Out</button></a>
   </div>
 </div>

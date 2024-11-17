@@ -5,48 +5,24 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What does the computer software acronym JVM stand for?",
-            "correct_answer": "Java Virtual Machine",
+            "question": "What is the code name for the mobile operating system Android 7.0?",
+            "correct_answer": "Nougat",
             "incorrect_answers": [
-                "Java Vendor Machine",
-                "Java Visual Machine",
-                "Just Virtual Machine"
+                "Ice Cream Sandwich",
+                "Jelly Bean",
+                "Marshmallow"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "On Twitter, what was the original character limit for a Tweet?",
-            "correct_answer": "140",
+            "question": "What is the domain name for the country Tuvalu?",
+            "correct_answer": ".tv",
             "incorrect_answers": [
-                "120",
-                "160",
-                "100"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Science: Computers",
-            "question": "In computing, what does LAN stand for?",
-            "correct_answer": "Local Area Network",
-            "incorrect_answers": [
-                "Long Antenna Node",
-                "Light Access Node",
-                "Land Address Navigation"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Science: Computers",
-            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
-            "correct_answer": "Apple",
-            "incorrect_answers": [
-                "Microsoft",
-                "Atari",
-                "Commodore"
+                ".tu",
+                ".tt",
+                ".tl"
             ]
         },
         {
@@ -65,12 +41,24 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
-            "correct_answer": "Green",
+            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+            "correct_answer": "Motherboard",
             "incorrect_answers": [
-                "Red",
-                "Blue",
-                "Yellow"
+                "Central Processing Unit",
+                "Hard Disk Drive",
+                "Random Access Memory"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does the computer software acronym JVM stand for?",
+            "correct_answer": "Java Virtual Machine",
+            "incorrect_answers": [
+                "Java Vendor Machine",
+                "Java Visual Machine",
+                "Just Virtual Machine"
             ]
         },
         {
@@ -89,36 +77,48 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What does LTS stand for in the software market?",
-            "correct_answer": "Long Term Support",
+            "question": "In computing, what does MIDI stand for?",
+            "correct_answer": "Musical Instrument Digital Interface",
             "incorrect_answers": [
-                "Long Taco Service",
-                "Ludicrous Transfer Speed",
-                "Ludicrous Turbo Speed"
+                "Musical Interface of Digital Instruments",
+                "Modular Interface of Digital Instruments",
+                "Musical Instrument Data Interface"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "In any programming language, what is the most common way to iterate through an array?",
-            "correct_answer": "&#039;For&#039; loops",
+            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+            "correct_answer": "Apple",
             "incorrect_answers": [
-                "&#039;If&#039; Statements",
-                "&#039;Do-while&#039; loops",
-                "&#039;While&#039; loops"
+                "Microsoft",
+                "Atari",
+                "Commodore"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "The C programming language was created by this American computer scientist. ",
-            "correct_answer": "Dennis Ritchie",
+            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+            "correct_answer": "Green",
             "incorrect_answers": [
-                "Tim Berners Lee",
-                "al-Khw\u0101rizm\u012b",
-                "Willis Ware"
+                "Red",
+                "Blue",
+                "Yellow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "How many values can a single byte represent?",
+            "correct_answer": "256",
+            "incorrect_answers": [
+                "8",
+                "1",
+                "1024"
             ]
         }
     ]
