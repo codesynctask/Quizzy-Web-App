@@ -4,7 +4,7 @@
 
 ## 1. Screenshot
 
-<img src="./public/img/intro.gif" alt="quiz_website_screenshot">
+<img src="./public/img/snapshot_quiz_web.gif" alt="quiz_website_screenshot">
 
 ## 2. Functionality
 
@@ -54,6 +54,7 @@
 # Contact Me
 
 [Contact via MAIL](mailto:code.deepak9899@gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Contact via LINKEDIN](https://www.linkedin.com/in/deepak-sharma-709823331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---

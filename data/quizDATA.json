@@ -5,12 +5,12 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What is the code name for the mobile operating system Android 7.0?",
-            "correct_answer": "Nougat",
+            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+            "correct_answer": "Apple",
             "incorrect_answers": [
-                "Ice Cream Sandwich",
-                "Jelly Bean",
-                "Marshmallow"
+                "Microsoft",
+                "Atari",
+                "Commodore"
             ]
         },
         {
@@ -29,12 +29,24 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "How long is an IPv6 address?",
-            "correct_answer": "128 bits",
+            "question": "How many values can a single byte represent?",
+            "correct_answer": "256",
             "incorrect_answers": [
-                "32 bits",
-                "64 bits",
-                "128 bytes"
+                "8",
+                "1",
+                "1024"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which programming language shares its name with an island in Indonesia?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                "Python",
+                "C",
+                "Jakarta"
             ]
         },
         {
@@ -53,72 +65,60 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What does the computer software acronym JVM stand for?",
-            "correct_answer": "Java Virtual Machine",
+            "question": "What language does Node.js use?",
+            "correct_answer": "JavaScript",
             "incorrect_answers": [
-                "Java Vendor Machine",
-                "Java Visual Machine",
-                "Just Virtual Machine"
+                "Java",
+                "Java Source",
+                "Joomla Source Code"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "When Gmail first launched, how much storage did it provide for your email?",
-            "correct_answer": "1GB",
+            "question": "On Twitter, what was the original character limit for a Tweet?",
+            "correct_answer": "140",
             "incorrect_answers": [
-                "512MB",
-                "5GB",
-                "Unlimited"
+                "120",
+                "160",
+                "100"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "In computing, what does MIDI stand for?",
-            "correct_answer": "Musical Instrument Digital Interface",
+            "question": "How long is an IPv6 address?",
+            "correct_answer": "128 bits",
             "incorrect_answers": [
-                "Musical Interface of Digital Instruments",
-                "Modular Interface of Digital Instruments",
-                "Musical Instrument Data Interface"
+                "32 bits",
+                "64 bits",
+                "128 bytes"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
-            "correct_answer": "Apple",
+            "question": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+            "correct_answer": "HD Graphics 500",
             "incorrect_answers": [
-                "Microsoft",
-                "Atari",
-                "Commodore"
+                "HD Graphics 700 ",
+                "HD Graphics 600",
+                "HD Graphics 7000"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
-            "correct_answer": "Green",
+            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+            "correct_answer": "1000",
             "incorrect_answers": [
-                "Red",
-                "Blue",
-                "Yellow"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Science: Computers",
-            "question": "How many values can a single byte represent?",
-            "correct_answer": "256",
-            "incorrect_answers": [
-                "8",
-                "1",
-                "1024"
+                "512",
+                "1024",
+                "500"
             ]
         }
     ]
