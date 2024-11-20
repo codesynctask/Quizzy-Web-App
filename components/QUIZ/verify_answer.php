@@ -13,12 +13,12 @@ foreach ($_POST as $key => $value) {
 
 // if this is the last question 
 if ($_SESSION["question_index"] == 9) {
-    header("Location: http://localhost/ARTH/QUIZ_WEB_APPP/components/QUIZ/result.php");
+    header("Location: ./result.php");
     exit();
 }
 
 $_SESSION["question_index"] += 1; //update question number
 
 // back again 
-header("Location: http://localhost/ARTH/QUIZ_WEB_APPP/components/QUIZ/quiz.php");
+header("Location: ./quiz.php");
 exit();

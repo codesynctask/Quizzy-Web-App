@@ -11,6 +11,9 @@
 
 <body>
   <?php
+  include "../../ADMIN/absolute_root_path.php";
+  ?>
+  <?php
   // Start the session
   session_start();
 
@@ -46,8 +49,8 @@
   } else {
     echo "<script>alert('Make sure you are login first')</script>";
     // echo "<h1>Login Not Found</h1>";
-    header("Location: ../USER/LOGIN/loginHome.php");
-    exit();
+    require("../USER/LOGIN/loginHome.php");
+    
   }
   ?>
 

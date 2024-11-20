@@ -13,6 +13,9 @@
 
 <body>
     <?php
+    include "../../../ADMIN/absolute_root_path.php";
+    ?>
+    <?php
     require "../../NAV/nav.php";
     ?>
     

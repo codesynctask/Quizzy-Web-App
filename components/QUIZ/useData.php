@@ -5,7 +5,7 @@ $file_path_to_read = '../../data/quizDATA.json';
 // Read
 $jsonString = @file_get_contents($file_path_to_read);
 
-if ($jsonString === FALSE) {
+if ($jsonString === FALSE or $jsonString == "null") {
     echo "<script>console.log('data not readed | reading hardcoded question');</script>";
     $jsonString = `{
         "response_code": 0,

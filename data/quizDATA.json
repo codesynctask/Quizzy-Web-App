@@ -5,36 +5,12 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
-            "correct_answer": "Apple",
+            "question": "What does the &quot;MP&quot; stand for in MP3?",
+            "correct_answer": "Moving Picture",
             "incorrect_answers": [
-                "Microsoft",
-                "Atari",
-                "Commodore"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Science: Computers",
-            "question": "What is the domain name for the country Tuvalu?",
-            "correct_answer": ".tv",
-            "incorrect_answers": [
-                ".tu",
-                ".tt",
-                ".tl"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Science: Computers",
-            "question": "How many values can a single byte represent?",
-            "correct_answer": "256",
-            "incorrect_answers": [
-                "8",
-                "1",
-                "1024"
+                "Music Player",
+                "Multi Pass",
+                "Micro Point"
             ]
         },
         {
@@ -53,48 +29,60 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
-            "correct_answer": "Motherboard",
+            "question": "What does CPU stand for?",
+            "correct_answer": "Central Processing Unit",
             "incorrect_answers": [
-                "Central Processing Unit",
-                "Hard Disk Drive",
-                "Random Access Memory"
+                "Central Process Unit",
+                "Computer Personal Unit",
+                "Central Processor Unit"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "What language does Node.js use?",
-            "correct_answer": "JavaScript",
+            "question": "In web design, what does CSS stand for?",
+            "correct_answer": "Cascading Style Sheet",
             "incorrect_answers": [
-                "Java",
-                "Java Source",
-                "Joomla Source Code"
+                "Counter Strike: Source",
+                "Corrective Style Sheet",
+                "Computer Style Sheet"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "On Twitter, what was the original character limit for a Tweet?",
-            "correct_answer": "140",
+            "question": "What is the code name for the mobile operating system Android 7.0?",
+            "correct_answer": "Nougat",
             "incorrect_answers": [
-                "120",
-                "160",
-                "100"
+                "Ice Cream Sandwich",
+                "Jelly Bean",
+                "Marshmallow"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "How long is an IPv6 address?",
-            "correct_answer": "128 bits",
+            "question": "In any programming language, what is the most common way to iterate through an array?",
+            "correct_answer": "&#039;For&#039; loops",
             "incorrect_answers": [
-                "32 bits",
-                "64 bits",
-                "128 bytes"
+                "&#039;If&#039; Statements",
+                "&#039;Do-while&#039; loops",
+                "&#039;While&#039; loops"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "How many kilobytes in one gigabyte (in decimal)?",
+            "correct_answer": "1000000",
+            "incorrect_answers": [
+                "1024",
+                "1000",
+                "1048576"
             ]
         },
         {
@@ -113,12 +101,24 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Science: Computers",
-            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
-            "correct_answer": "1000",
+            "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+            "correct_answer": "Objective-C",
             "incorrect_answers": [
-                "512",
-                "1024",
-                "500"
+                "C#",
+                "Ruby",
+                "C++"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does LTS stand for in the software market?",
+            "correct_answer": "Long Term Support",
+            "incorrect_answers": [
+                "Long Taco Service",
+                "Ludicrous Transfer Speed",
+                "Ludicrous Turbo Speed"
             ]
         }
     ]

@@ -1,12 +1,12 @@
 <?php
 $api_url = 'https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple';
-$file_path_to_store = "C:/wamp64/www/ARTH/QUIZ_WEB_APPP/data/quizDATA.json";
+$file_path_to_store = "../../data/quizDATA.json";
 
 // Fetch data from API
 $jsonString = @file_get_contents($api_url);
 
 
-if ($jsonString === FALSE or $jsonString == null) {
+if ($jsonString === FALSE or $jsonString == "null") {
     echo "<script>console.log('data not fetched | using hardcoded question');</script>";
     $jsonString = `{
         "response_code": 0,

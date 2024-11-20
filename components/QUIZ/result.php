@@ -12,6 +12,11 @@
 
 <body>
     <?php
+    require("../../ADMIN/absolute_root_path.php");
+
+    ?>
+    
+    <?php
     session_start();
 
     require "../NAV/nav.php"; //getting navbar
@@ -69,6 +74,7 @@
         </table>
 
     <?php
+        require "./../DATABASE/connect_mysql.php";
         require "../NAV/PROFILE/get_profile_data.php"; //get loggeed user data from db
         // if user answer array is greater than 0
         $user_completed_quiz++;

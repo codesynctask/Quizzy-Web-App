@@ -1,7 +1,7 @@
 <h1 id="card_head">Our top 3 <span>participants</span></h1>
 <div id="card_cont">
     <?php
-    require "C:\wamp64\www\ARTH\QUIZ_WEB_APPP\components\DATABASE\connect_mysql.php";
+    require "./components/database/connect_mysql.php";
 
     $set_user_average_sql = "UPDATE `quiz_web_app_user` SET `user_average_score` = IF(`user_completed_quiz` > 0, `user_total_score` / `user_completed_quiz`, 0)";
     $sql_read = "SELECT `user_name` , `user_average_score` FROM `quiz_web_app_user` ORDER BY `user_average_score` DESC LIMIT 3;";

@@ -16,6 +16,11 @@
 </head>
 
 <body>
+    <!-- defining absolute root path -->
+    <?php
+    include './ADMIN/absolute_root_path.php';
+    ?>
+
     <?php
     if (session_status() == PHP_SESSION_NONE) {
         session_start();

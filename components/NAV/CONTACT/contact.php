@@ -11,6 +11,9 @@
 </head>
 <body>
   <?php
+  include "../../../ADMIN/absolute_root_path.php";
+  ?>
+  <?php
   require "../nav.php";
   ?>
 

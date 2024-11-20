@@ -14,6 +14,10 @@
 
 <body>
   <?php
+  include "../../../ADMIN/absolute_root_path.php";
+  include "../../DATABASE/connect_mysql.php";
+  ?>
+  <?php
   if (session_status() == PHP_SESSION_NONE) {
     session_start();
   }

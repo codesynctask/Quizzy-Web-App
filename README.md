@@ -6,7 +6,15 @@
 
 <img src="./public/img/snapshot_quiz_web.gif" alt="quiz_website_screenshot">
 
-## 2. Functionality
+## 2. HOW TO USE
+- Set ABSOLUTE file path in "./ADMIN/absolute_root_path.php".
+    - project_folder_name : its Your project folder name. Default is "Quizzy-web-app"
+    - folder_path : its your project folder path. Default is "/ARTH"
+    - host : its your host name. Default is "localhost"
+    - port : its your port number. Default is "80"
+    - Happy Coding 🍻
+
+## 3. Functionality
 
 - Basic login & Sign up
 
@@ -25,7 +33,7 @@
 - Result Calculation
   - Calculated the result based on the number of correct answers and displayed it on the screen in table format.
 
-## 3. What I learned?
+## 4. What I learned?
 
 - Session
 

@@ -1,7 +1,8 @@
+
 <div class="login_signup_wrapper">
     <div class="btn_wrapper">
-        <a href="/ARTH/QUIZ_WEB_APPP/components/USER/LOGIN/loginHome.php"><button>Log in</button></a>
-        <a href="/ARTH/QUIZ_WEB_APPP/components/USER/SIGNUP/signUpHome.php"><button>Sign up</button></a>
+        <a href="<?php echo $absolute_root_path ?>/components/USER/LOGIN/loginHome.php"><button>Log in</button></a>
+        <a href="<?php echo $absolute_root_path ?>/components/USER/SIGNUP/signUpHome.php"><button>Sign up</button></a>
 
     </div>
     <div class="login_msg_wrapper">
